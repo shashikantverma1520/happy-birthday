@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday, Dost!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>🎉 Happy Birthday, <span id="name">Sunny dost!</span> 🎂</h1>
+    <p>May your day be filled with joy, laughter, and beautiful memories! 💖</p>
+    <button onclick="playMusic()">🎶 Surprise!</button>
+
+    <div class="message-wall">
+      <h2>Wishes from Friends:</h2>
+      <ul id="wishes"></ul>
+      <input type="text" id="wishInput" placeholder="Type your wish..." />
+      <button onclick="submitWish()">Send Wish</button>
+    </div>
+  </div>
+
+  <audio id="birthdaySong" src="happy-birthday.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
